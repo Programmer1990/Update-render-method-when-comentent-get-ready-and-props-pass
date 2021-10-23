@@ -14,8 +14,8 @@ function App() {
         return(
           <div className="App">
             <h1>React Method in React</h1>
-            <Profile name={name}/>
-            <button onClick={()=>setName("Singh")}>Update Name</button>
+            <Profile />
+            
           </div>
          
       );
